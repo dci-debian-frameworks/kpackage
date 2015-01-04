@@ -10,6 +10,7 @@ Build-Depends: cmake,
                libkf5config-dev,
                libkf5coreaddons-dev,
                libkf5i18n-dev,
+               pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kpackage
