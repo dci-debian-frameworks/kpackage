@@ -1,0 +1,3 @@
+usr/lib/*/libKF5Package.so.5
+usr/lib/*/libKF5Package.so.5.*
+usr/share/kservicetypes5/kpackage-packagestructure.desktop

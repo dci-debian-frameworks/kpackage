@@ -1,0 +1,4 @@
+# FIXME: qt mkpsec not created boooh
+usr/include/KF5/
+usr/lib/*/cmake/KF5Package/
+usr/lib/*/libKF5Package.so

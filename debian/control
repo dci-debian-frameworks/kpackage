@@ -1,0 +1,65 @@
+Source: kpackage
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 1.2.0),
+               kdoctools-dev,
+               libkf5archive-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5i18n-dev,
+               qtbase5-dev
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kpackage
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kpackage.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kpackage.git
+
+Package: kpackagetool5
+Section: utilities
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: command line kpackage tool
+ KPackage provides classes for applications to manage user installable packages
+ of non-binary assets.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the runtime package management tool.
+
+Package: libkf5package-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5package5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kpackage
+ KPackage provides classes for applications to manage user installable packages
+ of non-binary assets.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the development files.
+
+Package: libkf5package5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: non-binary asset management framework
+ KPackage provides classes for applications to manage user installable packages
+ of non-binary assets.
+ .
+ This package is part of KDE Frameworks 5.
+
+Package: libkf5package5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: same
+Depends: libkf5package5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for kpackage
+ KPackage provides classes for applications to manage user instalalble packages
+ of non-binary assets.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the debug symbols.
