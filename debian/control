@@ -14,6 +14,7 @@ Build-Depends: cmake,
                qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kpackage
+XS-Testsuite: autopkgtest
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kpackage.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kpackage.git
 
