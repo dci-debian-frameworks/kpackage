@@ -19,7 +19,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kpackage.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kpackage.git
 
 Package: kpackagetool5
-Section: utilities
+Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: command line kpackage tool
