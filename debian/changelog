@@ -1,5 +1,9 @@
-kpackage (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+kpackage (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * Initial release.
 
- -- Harald Sitter <sitter@kde.org>  Sun, 04 Jan 2015 15:18:25 +0100
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Jan 2015 14:07:32 +0100
