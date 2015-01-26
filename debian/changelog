@@ -4,6 +4,7 @@ kpackage (5.6.0-1~) UNRELEASED; urgency=medium
   * Update build dependencies to build against experimenta and to follow
     cmake.
   * Split -data package and update install files.
+  * Update watch file.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 12:02:05 +0100
 
