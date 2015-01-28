@@ -7,6 +7,7 @@ kpackage (5.6.0-1~) UNRELEASED; urgency=medium
   * Update watch file.
   * Update copyright information.
   * Add missing dev dependency (thanks to acc headers check)
+  * Add myself as uploader.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 12:02:05 +0100
 
