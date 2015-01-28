@@ -33,7 +33,10 @@ Description: command line kpackage tool
 Package: libkf5package-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5package5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5coreaddons-dev (>= 5.6.0),
+         libkf5package5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0),
+         ${misc:Depends}
 Description: development files for kpackage
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.
@@ -45,7 +48,9 @@ Description: development files for kpackage
 Package: libkf5package5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5package-data (= ${source:Version})
+Depends: libkf5package-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: non-binary asset management framework
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.
