@@ -1,4 +1,4 @@
-kpackage (5.6.0-1~) UNRELEASED; urgency=medium
+kpackage (5.6.0-1) experimental; urgency=medium
 
   * Initial debian release.
   * Update build dependencies to build against experimenta and to follow
@@ -9,7 +9,7 @@ kpackage (5.6.0-1~) UNRELEASED; urgency=medium
   * Add missing dev dependency (thanks to acc headers check)
   * Add myself as uploader.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 12:02:05 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Jan 2015 09:21:38 +0100
 
 kpackage (5.6.0-0ubuntu1) vivid; urgency=medium
 
