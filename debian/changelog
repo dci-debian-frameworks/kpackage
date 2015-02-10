@@ -1,4 +1,4 @@
-kpackage (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
+kpackage (5.7.0-0ubuntu1) vivid; urgency=medium
 
   [ Harald Sitter ]
   * New upstream release
@@ -10,7 +10,7 @@ kpackage (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Fix man page install path.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Feb 2015 19:20:12 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 16:37:25 +0100
 
 kpackage (5.6.0-0ubuntu1) vivid; urgency=medium
 
