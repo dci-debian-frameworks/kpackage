@@ -5,11 +5,11 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.7.0),
-               kdoctools-dev,
-               libkf5archive-dev,
-               libkf5config-dev,
-               libkf5coreaddons-dev,
-               libkf5i18n-dev,
+               kdoctools-dev (>= 5.7.0),
+               libkf5archive-dev (>= 5.7.0),
+               libkf5config-dev (>= 5.7.0),
+               libkf5coreaddons-dev (>= 5.7.0),
+               libkf5i18n-dev (>= 5.7.0),
                pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.6
@@ -22,6 +22,8 @@ Package: kpackagetool5
 Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5package5 (<< 5.7.0-0ubuntu1~)
+Replaces: libkf5package5 (<< 5.7.0-0ubuntu1~)
 Description: command line kpackage tool
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.

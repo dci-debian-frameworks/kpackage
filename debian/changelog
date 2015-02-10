@@ -1,8 +1,16 @@
 kpackage (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * New upstream release
+  * Version frameworks5 build dependencies to enable automatic version
+    manipulation by our scripts.
+  * Move all manpages for kpackagetool5 to the kpackagetool5 package
+    + kpackagetool5 now breaks older versions of libkf5package5
 
- -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 10:00:40 +0100
+  [ Scarlett Clark ]
+  * Fix man page install path.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Feb 2015 19:20:12 -0800
 
 kpackage (5.6.0-0ubuntu1) vivid; urgency=medium
 
