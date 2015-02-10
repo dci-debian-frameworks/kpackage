@@ -5,7 +5,7 @@ kpackage (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix man page install path. 
-  * Fix man page install path in the right branch.. 
+  * Fix man page filename had a 5 appended. 
 
  -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 10:00:40 +0100
 
