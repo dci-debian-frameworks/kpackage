@@ -4,6 +4,20 @@ kpackage (5.7.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:52:52 +0100
 
+kpackage (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  [ Harald Sitter ]
+  * New upstream release
+  * Version frameworks5 build dependencies to enable automatic version
+    manipulation by our scripts.
+  * Move all manpages for kpackagetool5 to the kpackagetool5 package
+    + kpackagetool5 now breaks older versions of libkf5package5
+
+  [ Scarlett Clark ]
+  * Fix man page install path.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 16:37:25 +0100
+
 kpackage (5.6.0-1) experimental; urgency=medium
 
   * Initial debian release.
