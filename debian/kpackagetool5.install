@@ -1,4 +1,4 @@
 usr/bin/kpackagetool5
 usr/share/kservicetypes5/kpackage-packagestructure.desktop
-usr/share/man/*/man1/kpackagetool.1
-usr/share/man/man1/kpackagetool.1
+usr/share/man/*/man1/kpackagetool5.1
+usr/share/man/man1/kpackagetool5.1
