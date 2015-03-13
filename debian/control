@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 1.7.0),
-               kdoctools-dev (>= 5.7.0),
-               libkf5archive-dev (>= 5.7.0),
-               libkf5config-dev (>= 5.7.0),
-               libkf5coreaddons-dev (>= 5.7.0),
-               libkf5i18n-dev (>= 5.7.0),
+               extra-cmake-modules (>= 1.8.0),
+               kdoctools-dev (>= 5.8.0),
+               libkf5archive-dev (>= 5.8.0),
+               libkf5config-dev (>= 5.8.0),
+               libkf5coreaddons-dev (>= 5.8.0),
+               libkf5i18n-dev (>= 5.8.0),
                pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.6
