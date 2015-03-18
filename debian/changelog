@@ -1,8 +1,8 @@
-kpackage (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
+kpackage (5.8.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 14:23:55 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:38:53 +0100
 
 kpackage (5.7.0-0ubuntu1) vivid; urgency=medium
 
