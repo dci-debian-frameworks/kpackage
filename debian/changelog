@@ -1,3 +1,9 @@
+kpackage (5.8.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Mar 2015 14:28:13 +0100
+
 kpackage (5.7.0-1) experimental; urgency=medium
 
   * New upstream release (5.7.0).
