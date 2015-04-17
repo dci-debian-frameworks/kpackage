@@ -55,6 +55,7 @@ Multi-Arch: same
 Depends: libkf5package-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: kpackagetool5 (>= ${binary:Version})
 Description: non-binary asset management framework
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.
