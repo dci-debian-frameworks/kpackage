@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 5.5.0+git amd64
+# SymbolsHelper-Confirmed: 5.9.0+git20150501.0129+15.04 amd64 i386
 libKF5Package.so.5 libkf5package5 #MINVER#
  _ZN8KPackage12versionMajorEv@Base 5.5.0+git
  _ZN8KPackage12versionMinorEv@Base 5.5.0+git
  _ZN8KPackage13PackageLoader11loadPackageERK7QStringS3_@Base 5.5.0+git
+ _ZN8KPackage13PackageLoader12findPackagesERK7QStringS3_St8functionIFbRK15KPluginMetaDataEE@Base 5.9.0+git20150501.0129+15.04
  _ZN8KPackage13PackageLoader12listPackagesERK7QStringS3_@Base 5.5.0+git
  _ZN8KPackage13PackageLoader16setPackageLoaderEPS0_@Base 5.5.0+git
  _ZN8KPackage13PackageLoader19internalLoadPackageERK7QString@Base 5.5.0+git
