@@ -13,7 +13,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5i18n-dev (>= 5.10.0~),
                pkg-kde-tools,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.2.0)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kpackage
 XS-Testsuite: autopkgtest
@@ -39,7 +39,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5coreaddons-dev (>= 5.10.0~),
          libkf5package5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: development files for kpackage
  KPackage provides classes for applications to manage user installable packages
