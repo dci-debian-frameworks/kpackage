@@ -1,14 +1,39 @@
+kpackage (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 13:03:47 +0200
+
+kpackage (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:03 +0200
+
 kpackage (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:28:57 +0200
 
+kpackage (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:49 +0100
+
 kpackage (5.8.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:38:53 +0100
+
+kpackage (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:46 +0100
 
 kpackage (5.7.0-0ubuntu1) vivid; urgency=medium
 
@@ -23,6 +48,19 @@ kpackage (5.7.0-0ubuntu1) vivid; urgency=medium
   * Fix man page install path.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 16:37:25 +0100
+
+kpackage (5.6.0-1) experimental; urgency=medium
+
+  * Initial debian release.
+  * Update build dependencies to build against experimenta and to follow
+    cmake.
+  * Split -data package and update install files.
+  * Update watch file.
+  * Update copyright information.
+  * Add missing dev dependency (thanks to acc headers check)
+  * Add myself as uploader.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Jan 2015 09:21:38 +0100
 
 kpackage (5.6.0-0ubuntu1) vivid; urgency=medium
 
