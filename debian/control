@@ -24,8 +24,8 @@ Package: kpackagetool5
 Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5package5 (<< 5.7.0-1~)
-Replaces: libkf5package5 (<< 5.7.0-1~)
+Breaks: libkf5package5 (<< 5.10)
+Replaces: libkf5package5 (<< 5.10)
 Description: command line kpackage tool
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.
@@ -66,6 +66,8 @@ Package: libkf5package-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5package5 (<< 5.10)
+Replaces: libkf5package5 (<< 5.10)
 Description: non-binary asset management framework
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.
