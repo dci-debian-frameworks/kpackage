@@ -1,4 +1,4 @@
-kpackage (5.11.0-1~) UNRELEASED; urgency=medium
+kpackage (5.11.0-1) unstable; urgency=medium
 
   * New upstream release (5.11.0).
 
@@ -9,7 +9,7 @@ kpackage (5.11.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 14:12:51 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 15:08:05 +0200
 
 kpackage (5.10.0-0ubuntu1) wily; urgency=medium
 
