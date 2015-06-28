@@ -1,17 +1,12 @@
 kpackage (5.11.0-1~) UNRELEASED; urgency=medium
 
-  * New upstream release (5.10.0).
-  * Update symbols files.
   * New upstream release (5.11.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 14:12:51 +0200
-
-kpackage (5.10.0-0ubuntu2) wily; urgency=medium
-
+  [ José Manuel Santamaría Lema ]
   * libkf5package-data Breaks/Replaces libkf5package5 (<< 5.10) LP: #1461987
   * kpackagetool5 Breaks/Replaces libkf5package5 (<< 5.10)
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 08 Jun 2015 10:53:18 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 14:12:51 +0200
 
 kpackage (5.10.0-0ubuntu1) wily; urgency=medium
 
@@ -23,7 +18,7 @@ kpackage (5.10.0-0ubuntu1) wily; urgency=medium
   * New upstream release
 
   [ Scarlett Clark ]
-  * Batchpatch symbols file. 
+  * Batchpatch symbols file.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 21:04:47 +0200
 
