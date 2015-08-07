@@ -1,3 +1,9 @@
+kpackage (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 15:51:32 +0200
+
 kpackage (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
