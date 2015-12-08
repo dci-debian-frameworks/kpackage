@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64
+# SymbolsHelper-Confirmed: 5.17.0 amd64
 libKF5Package.so.5 libkf5package5 #MINVER#
  _ZN8KPackage12versionMajorEv@Base 5.5.0+git
  _ZN8KPackage12versionMinorEv@Base 5.5.0+git
@@ -22,6 +22,7 @@ libKF5Package.so.5 libkf5package5 #MINVER#
  _ZN8KPackage16PackageStructure11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0+git
  _ZN8KPackage16PackageStructure11qt_metacastEPKc@Base 5.5.0+git
  _ZN8KPackage16PackageStructure16staticMetaObjectE@Base 5.5.0+git
+ _ZN8KPackage16PackageStructure6updateEPNS_7PackageERK7QStringS5_@Base 5.17.0
  _ZN8KPackage16PackageStructure7installEPNS_7PackageERK7QStringS5_@Base 5.5.0+git
  _ZN8KPackage16PackageStructure9uninstallEPNS_7PackageERK7QString@Base 5.5.0+git
  _ZN8KPackage16PackageStructureC1EP7QObjectRK5QListI8QVariantE@Base 5.5.0+git
@@ -40,6 +41,7 @@ libKF5Package.so.5 libkf5package5 #MINVER#
  _ZN8KPackage7Package21setDefaultPackageRootERK7QString@Base 5.5.0+git
  _ZN8KPackage7Package22addDirectoryDefinitionERK10QByteArrayRK7QStringS6_@Base 5.5.0+git
  _ZN8KPackage7Package22setContentsPrefixPathsERK11QStringList@Base 5.5.0+git
+ _ZN8KPackage7Package6updateERK7QStringS3_@Base 5.17.0
  _ZN8KPackage7Package7installERK7QStringS3_@Base 5.5.0+git
  _ZN8KPackage7Package7setPathERK7QString@Base 5.5.0+git
  _ZN8KPackage7Package9uninstallERK7QStringS3_@Base 5.5.0+git
