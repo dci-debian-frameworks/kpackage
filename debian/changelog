@@ -1,6 +1,6 @@
-kpackage (5.21.0-1~2.gbpe1d2a3) UNRELEASED; urgency=medium
+kpackage (5.21.0-1~3.gbp8b028c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e1d2a3c374a1475f0ec5254ed572ce6594811be8 **
+  ** SNAPSHOT build @8b028c0b3ab8ecc5e2e38b4f7f9848a5460af831 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -11,6 +11,7 @@ kpackage (5.21.0-1~2.gbpe1d2a3) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
+  * Update symbols files.
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -19,7 +20,7 @@ kpackage (5.21.0-1~2.gbpe1d2a3) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 15:10:59 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 18 Apr 2016 08:15:04 +0200
 
 kpackage (5.19.0-1) experimental; urgency=medium
 
