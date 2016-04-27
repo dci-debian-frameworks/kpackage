@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.0+git20151110.0141+15.10 amd64 i386
+# SymbolsHelper-Confirmed: 5.21.0 amd64 i386
 libKF5Package.so.5 libkf5package5 #MINVER#
  _ZN8KPackage12versionMajorEv@Base 5.5.0+git
  _ZN8KPackage12versionMinorEv@Base 5.5.0+git
@@ -60,6 +60,7 @@ libKF5Package.so.5 libkf5package5 #MINVER#
  _ZNK8KPackage7Package12contentsHashEv@Base 5.5.0+git
  _ZNK8KPackage7Package13requiredFilesEv@Base 5.5.0+git
  _ZNK8KPackage7Package15fallbackPackageEv@Base 5.5.0+git
+ _ZNK8KPackage7Package17cryptographicHashEN18QCryptographicHash9AlgorithmE@Base 5.21.0
  _ZNK8KPackage7Package17hasValidStructureEv@Base 5.5.0+git
  _ZNK8KPackage7Package18allowExternalPathsEv@Base 5.5.0+git
  _ZNK8KPackage7Package18defaultPackageRootEv@Base 5.5.0+git
