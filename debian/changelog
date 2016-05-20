@@ -1,10 +1,9 @@
-kpackage (5.22.0-1~1.gbp609b62) UNRELEASED; urgency=medium
+kpackage (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @609b62c8f2061ee5b8aa09e91a4cb5bd41811e68 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 16:53:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 May 2016 09:18:57 +0200
 
 kpackage (5.21.0-1) experimental; urgency=medium
 
