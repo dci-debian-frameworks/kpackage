@@ -1,3 +1,11 @@
+kpackage (5.23.0-1~1.gbpd36b33) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d36b337bcab74fcde99776a688c5b4a7e5acc9fd **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 22:53:39 +0200
+
 kpackage (5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
