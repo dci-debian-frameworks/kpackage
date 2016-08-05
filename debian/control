@@ -36,7 +36,8 @@ Description: command line kpackage tool
 Package: libkf5package-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons-dev (>= 5.19.0~),
+Depends: kpackagetool5 (= ${binary:Version}),
+         libkf5coreaddons-dev (>= 5.19.0~),
          libkf5package5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
