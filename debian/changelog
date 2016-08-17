@@ -1,6 +1,6 @@
-kpackage (5.25.0-1~2.gbp9f5b76) UNRELEASED; urgency=medium
+kpackage (5.25.0-1~3.gbp6bd886) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9f5b76fc7c6f21914a528b108384aed1250ee8d0 **
+  ** SNAPSHOT build @6bd8862ea323831a9c041b97a20c8dc0c847bc35 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @41277fa6edb760407203ee1790d6a052fbdb56c7 **
@@ -11,8 +11,9 @@ kpackage (5.25.0-1~2.gbp9f5b76) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Make the dev package depend on kpackagetool
   * Inject kpackagetool5 through the symbols file
+  * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 13:28:18 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 23:53:15 +0200
 
 kpackage (5.23.0-1) unstable; urgency=medium
 
