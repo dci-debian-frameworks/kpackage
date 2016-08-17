@@ -1,11 +1,18 @@
-kpackage (5.25.0-1~1.gbp41277f) UNRELEASED; urgency=medium
+kpackage (5.25.0-1~2.gbp9f5b76) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @9f5b76fc7c6f21914a528b108384aed1250ee8d0 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @41277fa6edb760407203ee1790d6a052fbdb56c7 **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 10:53:11 +0200
+  [ Maximiliano Curia ]
+  * Make the dev package depend on kpackagetool
+  * Inject kpackagetool5 through the symbols file
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 13:28:18 +0200
 
 kpackage (5.23.0-1) unstable; urgency=medium
 
