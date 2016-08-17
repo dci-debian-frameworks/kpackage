@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.21.0 amd64 armhf i386
-libKF5Package.so.5 libkf5package5 #MINVER#
+libKF5Package.so.5 libkf5package5 #MINVER#, kpackagetool5
  _ZN8KPackage12versionMajorEv@Base 5.5.0+git
  _ZN8KPackage12versionMinorEv@Base 5.5.0+git
  _ZN8KPackage13PackageLoader11loadPackageERK7QStringS3_@Base 5.5.0+git
