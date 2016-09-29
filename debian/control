@@ -23,7 +23,12 @@ Package: kpackagetool5
 Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5package5 (<< 5.10)
+Breaks: kpackagelauncherqml (<< 5.26),
+        libkf5declarative5 (<< 5.26),
+        libkf5package5 (<< 5.10),
+        libkf5plasma5 (<< 5.26),
+        libkf5quickaddons5 (<< 5.26),
+        plasma-framework (<< 5.26)
 Replaces: libkf5package5 (<< 5.10)
 Description: command line kpackage tool
  KPackage provides classes for applications to manage user installable packages
@@ -48,9 +53,9 @@ Description: development files for kpackage
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
-Breaks: libkf5declarative-dev (<< 5.25),
-        libkf5plasma-dev (<< 5.25),
-        plasma-framework-dev (<< 5.25)
+Breaks: libkf5declarative-dev (<< 5.26),
+        libkf5plasma-dev (<< 5.26),
+        plasma-framework-dev (<< 5.26)
 
 Package: libkf5package5
 Architecture: any
@@ -64,11 +69,11 @@ Description: non-binary asset management framework
  of non-binary assets.
  .
  This package is part of KDE Frameworks 5.
-Breaks: kpackagelauncherqml (<< 5.25),
-        libkf5declarative5 (<< 5.25),
-        libkf5plasma5 (<< 5.25),
-        libkf5quickaddons5 (<< 5.25),
-        plasma-framework (<< 5.25)
+Breaks: kpackagelauncherqml (<< 5.26),
+        libkf5declarative5 (<< 5.26),
+        libkf5plasma5 (<< 5.26),
+        libkf5quickaddons5 (<< 5.26),
+        plasma-framework (<< 5.26)
 
 Package: libkf5package-data
 Architecture: all
