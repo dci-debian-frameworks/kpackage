@@ -1,10 +1,13 @@
-kpackage (5.27.0-1~1.gbpacdc4b) UNRELEASED; urgency=medium
+kpackage (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @acdc4b7123db074c8ce3eb44c44d93602ac90ed2 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 16:53:35 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:01:51 +0200
 
 kpackage (5.26.0-1) unstable; urgency=medium
 
