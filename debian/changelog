@@ -1,10 +1,11 @@
-kpackage (5.28.0-1~1.gbp8825c5) UNRELEASED; urgency=medium
+kpackage (5.28.1-1~1.gbp513017) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8825c5928ee4704ea2e303ad6ce9e642b04a67fe **
+  ** SNAPSHOT build @513017833c709d6c67a789469a5d4ed1a114c41f **
 
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 16:53:26 +0100
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Sun, 20 Nov 2016 22:53:10 +0100
 
 kpackage (5.27.0-1) unstable; urgency=medium
 
