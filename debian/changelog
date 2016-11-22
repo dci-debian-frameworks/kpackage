@@ -1,11 +1,8 @@
-kpackage (5.28.1-1~1.gbp513017) UNRELEASED; urgency=medium
+kpackage (5.28.1-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @513017833c709d6c67a789469a5d4ed1a114c41f **
+  * New upstream release (5.28.1)
 
-  * Update build-deps and deps with the info from cmake
-  * UNRELEASED
-
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Sun, 20 Nov 2016 22:53:10 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Nov 2016 12:48:08 +0100
 
 kpackage (5.28.0-1) unstable; urgency=medium
 
