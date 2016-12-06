@@ -1,3 +1,9 @@
+kpackage (5.28.1-1) unstable; urgency=medium
+
+  * New upstream release (5.28.1)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Nov 2016 12:48:08 +0100
+
 kpackage (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
