@@ -1,3 +1,9 @@
+kpackage (5.29.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:08:19 +0000
+
 kpackage (5.28.0-0neon) xenial; urgency=medium
 
   * New release
