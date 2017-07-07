@@ -1,8 +1,18 @@
-kpackage (5.35.0-1~) UNRELEASED; urgency=medium
+kpackage (5.35.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
+  * Update install files
+  * Let autopkgtest take care of the build required for the test
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:49:20 +0200
+  [ Raymond Wooninck ]
+  * Add signing key
+  * also include signing-key
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 09:58:09 +0200
 
 kpackage (5.28.1-1) unstable; urgency=medium
 
