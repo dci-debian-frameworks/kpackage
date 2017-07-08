@@ -1,4 +1,4 @@
-kpackage (5.35.0-1~1) UNRELEASED; urgency=medium
+kpackage (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -7,12 +7,14 @@ kpackage (5.35.0-1~1) UNRELEASED; urgency=medium
   * Bump group breaks (5.35)
   * Update install files
   * Let autopkgtest take care of the build required for the test
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Raymond Wooninck ]
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 09:58:09 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:43:18 +0200
 
 kpackage (5.28.1-1) unstable; urgency=medium
 
