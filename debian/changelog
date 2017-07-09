@@ -1,4 +1,4 @@
-kpackage (5.36.0-1~) UNRELEASED; urgency=medium
+kpackage (5.36.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -9,12 +9,17 @@ kpackage (5.36.0-1~) UNRELEASED; urgency=medium
   * Let autopkgtest take care of the build required for the test
   * watch: Use https uris
   * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
 
   [ Raymond Wooninck ]
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:43:18 +0200
+  [ Jonathan Riddell ]
+  * update .install
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:01 +0200
 
 kpackage (5.28.1-1) unstable; urgency=medium
 
