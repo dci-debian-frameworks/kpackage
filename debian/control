@@ -83,6 +83,7 @@ Description: non-binary asset management framework (documentation)
  of non-binary assets.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5package5
 Architecture: any
