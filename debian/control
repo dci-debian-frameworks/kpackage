@@ -57,7 +57,8 @@ Description: non-binary asset management framework
 Package: libkf5package-dev
 Section: libdevel
 Architecture: any
-Depends: kpackagetool5 (= ${binary:Version}),
+Depends: extra-cmake-modules,
+         kpackagetool5 (= ${binary:Version}),
          libkf5coreaddons-dev (>= 5.38.0~),
          libkf5package5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
