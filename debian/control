@@ -26,13 +26,16 @@ Package: kpackagetool5
 Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kpackagelauncherqml (<< 5.41),
-        libkf5declarative5 (<< 5.41),
+Breaks: kpackagelauncherqml (<< 5.42),
+        libkf5declarative5 (<< 5.42),
+        libkf5kcmutils5 (<< 5.42),
         libkf5package5 (<< 5.10),
-        libkf5plasma5 (<< 5.41),
-        libkf5plasmaquick5 (<< 5.41),
-        libkf5quickaddons5 (<< 5.41),
-        plasma-framework (<< 5.41),
+        libkf5plasma5 (<< 5.42),
+        libkf5plasmaquick5 (<< 5.42),
+        libkf5quickaddons5 (<< 5.42),
+        libkf5runner5 (<< 5.42),
+        plasma-framework (<< 5.42),
+        qml-module-org-kde-runnermodel (<< 5.42),
 Replaces: libkf5package5 (<< 5.10)
 Description: command line kpackage tool
  KPackage provides classes for applications to manage user installable packages
@@ -63,8 +66,8 @@ Depends: extra-cmake-modules (>= 5.42.0~),
          libkf5package5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
-Breaks: libkf5declarative-dev (<< 5.41),
-        libkf5plasma-dev (<< 5.41),
+Breaks: libkf5declarative-dev (<< 5.42),
+        libkf5plasma-dev (<< 5.42),
         plasma-framework-dev (<< 5.28),
 Recommends: libkf5package-doc (= ${source:Version})
 Description: development files for kpackage
@@ -92,12 +95,15 @@ Multi-Arch: same
 Depends: libkf5package-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: kpackagelauncherqml (<< 5.41),
-        libkf5declarative5 (<< 5.41),
-        libkf5plasma5 (<< 5.41),
-        libkf5plasmaquick5 (<< 5.41),
-        libkf5quickaddons5 (<< 5.41),
-        plasma-framework (<< 5.41),
+Breaks: kpackagelauncherqml (<< 5.42),
+        libkf5declarative5 (<< 5.42),
+        libkf5kcmutils5 (<< 5.42),
+        libkf5plasma5 (<< 5.42),
+        libkf5plasmaquick5 (<< 5.42),
+        libkf5quickaddons5 (<< 5.42),
+        libkf5runner5 (<< 5.42),
+        plasma-framework (<< 5.42),
+        qml-module-org-kde-runnermodel (<< 5.42),
 Recommends: kpackagetool5 (>= ${binary:Version})
 Description: non-binary asset management framework
  KPackage provides classes for applications to manage user installable packages
